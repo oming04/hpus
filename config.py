@@ -23,7 +23,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "776fec9b07afa7d5cc74425852c9835b")
 
     # Authorized users to use this bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5178642977").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6056133459").split())
 
     # Generate a user session string
     TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQAkl4IC4LcDLorQ_FDLSkxx4fE4FCUZ-2woH4Gmy0ezbQHSJqUbgiV-_0vmpNo54ffXCifCpOzTcG9o4mJqqTkbzx_5SgtWdXvOMFYJ-8wMSg_eWVlyjgxwQUiLHP_Dt6OuebK_OlX0sFIniWsank59XDsWWIH1MpTsmc9TX7BUKlBhKQR1TfXki8ONqJHtYzK9UDXZfMmZlnHVPa27bjUhDuC_N7T7Hog3TFkj7j7cfQcpx5kMV6YM85hX4XsMFt1gPrVlf6tQtcbMuWCHu9jKHd6rW3ey_PxxarkvEcGeEtsEwxnJgw9j0F3BFrZzyulgMKr1-gZ8rE0hEKzd3fAAAAAT5_f78A")
